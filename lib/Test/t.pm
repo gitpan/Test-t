@@ -15,6 +15,8 @@ BEGIN {
 
 }
 
+require File::Spec;
+
 BEGIN {
     @ISA = qw/ Test::Builder::Module /;
 }
@@ -32,6 +34,11 @@ sub import {
 
 }
 
+sub path { 
+    shift;
+    File::Spec->canonpath( @_ );
+}
+
 1;
 
 __END__
@@ -43,7 +50,7 @@ Test::t - 0 to testing in 1 line
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
