@@ -1,4 +1,7 @@
 package Test::t;
+BEGIN {
+  $Test::t::VERSION = '0.003';
+}
 # ABSTRACT: 0 to testing in 1 line
 
 
@@ -50,7 +53,7 @@ Test::t - 0 to testing in 1 line
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
@@ -87,7 +90,7 @@ The (non-existent) interface is in flux and will be changed soon.
 
 =head1 AUTHOR
 
-  Robert Krimen <rkrimen@cpan.org>
+  Robert Krimen <robertkrimen@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 

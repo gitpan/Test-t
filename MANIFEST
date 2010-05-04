@@ -1,11 +1,8 @@
 Changes
-LICENSE
 MANIFEST
 META.yml
 Makefile.PL
 README
-Session.vim
-dist.ini
 lib/Test/t.pm
 t/02-strict.t
 t/03-warnings.t

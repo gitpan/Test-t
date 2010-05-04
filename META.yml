@@ -1,11 +1,11 @@
 ---
 abstract: '0 to testing in 1 line'
 author:
-  - 'Robert Krimen <rkrimen@cpan.org>'
+  - 'Robert Krimen <robertkrimen@gmail.com>'
 build_requires: {}
 configure_requires:
   ExtUtils::MakeMaker: 6.31
-generated_by: 'Dist::Zilla version 2.101160'
+generated_by: 'Dist::Zilla version 2.101170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,4 +16,4 @@ requires:
   File::Spec: 0
   Test::More: 0
   Test::Most: 0
-version: 0.002
+version: 0.003

@@ -17,15 +17,15 @@ my %WriteMakefileArgs = (
                        'CONFIGURE_REQUIRES' => {
                                                  'ExtUtils::MakeMaker' => '6.31'
                                                },
-                       'AUTHOR' => 'Robert Krimen <rkrimen@cpan.org>',
+                       'AUTHOR' => 'Robert Krimen <robertkrimen@gmail.com>',
                        'BUILD_REQUIRES' => {},
                        'ABSTRACT' => '0 to testing in 1 line',
                        'EXE_FILES' => [],
-                       'VERSION' => '0.002',
+                       'VERSION' => '0.003',
                        'PREREQ_PM' => {
                                         'Test::More' => '0',
-                                        'File::Spec' => '0',
-                                        'Test::Most' => '0'
+                                        'Test::Most' => '0',
+                                        'File::Spec' => '0'
                                       },
                        'LICENSE' => 'perl'
                      );
