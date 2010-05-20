@@ -1,6 +1,6 @@
 package Test::t;
 BEGIN {
-  $Test::t::VERSION = '0.003';
+  $Test::t::VERSION = '0.0031';
 }
 # ABSTRACT: 0 to testing in 1 line
 
@@ -13,7 +13,6 @@ our ( @ISA, @EXPORT );
 BEGIN {
 
     require Test::Most;
-    @EXPORT = @Test::Most::EXPORT;
     Test::Most->import;
 
 }
@@ -24,8 +23,10 @@ BEGIN {
     @ISA = qw/ Test::Builder::Module /;
 }
 
+@EXPORT = @Test::Most::EXPORT;
+
 sub import {
-    
+
     strict->import;
     warnings->import;
 
@@ -53,7 +54,7 @@ Test::t - 0 to testing in 1 line
 
 =head1 VERSION
 
-version 0.003
+version 0.0031
 
 =head1 SYNOPSIS
 
